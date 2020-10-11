@@ -78,6 +78,16 @@ plainwhite:
   disqus_shortname: games
 ```
 
+**Comments (Utterances)**
+
+Comments on posts can be enabled by specifying your utterances_github_id, utterances_repo_name under plainwhite in `_config.yml`. For example,
+
+~~~yaml
+plainwhite:
+	utterances_github_id: < YOUR GITHUB ID >
+	utterances_repo_name: < YOUR GITHUB REPOSITORY NAME >
+~~~
+
 **Google Analytics**
 
 It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
